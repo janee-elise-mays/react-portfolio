@@ -1,9 +1,21 @@
 import React from "react";
+import { Jumbotron } from "react-bootstrap";
+import { animated } from "react-spring";
 
-
-function Header(){
+function Header() {
     const date = new Date();
     const currentTime = date.getHours();
+
+    // const[flip, set] = useState(false)
+    // const props = useSpring({ 
+    //     to: { opacity: 1 }, 
+    //     from: { opacity: 0 },
+    //     reset: true,
+    //     reverse: flip,
+    //     delay: 200,
+    //     config: config.molasses,
+    //     onRest: () => set(!flip),
+    // });
 
     let greeting;
 
@@ -12,14 +24,19 @@ function Header(){
     } else if (currentTime < 18) {
         greeting = "Good Afternoon!";
     } else {
-        greeting = "Good Evening!";
+        greeting = "Good Evening.";
     }
 
-    
+
     return (
-        <header>
-        <h1>{greeting} My name is Janeé Mays</h1>
-        </header>
+        <div>
+            <Jumbotron>
+                <header>
+                    <h1>{greeting} My name is <animated.span>Janeé Mays</animated.span></h1>
+                    <p>Your imagination is my inspirtation.</p>
+                </header>
+            </Jumbotron>
+        </div>
     );
 }
 

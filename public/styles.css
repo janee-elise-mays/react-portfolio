@@ -11,17 +11,27 @@ body {
 }
 /* Head and Janee hover set atributed to the "Hello my name is" section*/
 header {
-    padding: 16px 32px;
     background-color: #f5ba13;
-    font-size: 25px;
-    color:black;
-    text-align:right;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 header h1 {
     color: white;
     font-family:inherit;
     font-weight: 200;
 }
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
 /* 
 .janee:hover{
     color:royalblue;
