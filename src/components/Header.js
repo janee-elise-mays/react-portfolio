@@ -24,7 +24,7 @@ function Header() {
     } else if (currentTime < 18) {
         greeting = "Good Afternoon!";
     } else {
-        greeting = "Good Evening.";
+        greeting = "Good Evening";
     }
 
 
@@ -32,8 +32,9 @@ function Header() {
         <div>
             <Jumbotron>
                 <header>
-                    <h1>{greeting} My name is <animated.span>Janeé Mays</animated.span></h1>
-                    <p>Your imagination is my inspirtation.</p>
+                    <h1>{greeting}</h1>
+                    <h2>My name is Janeé Mays</h2> 
+                    <p>Your imagination is my inspiration.</p>
                 </header>
             </Jumbotron>
         </div>
