@@ -1,6 +1,7 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import { animated } from "react-spring";
+// import { animated } from "react-spring";
+import bgimage from '../images/blue-brick.jpg'
 
 function Header() {
     const date = new Date();
@@ -30,10 +31,10 @@ function Header() {
 
     return (
         <div>
-            <Jumbotron>
+            <Jumbotron style={{backgroundImage: `url(${bgimage})`, backgroundSize: 'cover'}}>
                 <header>
                     <h1>{greeting}</h1>
-                    <h2>My name is Janeé Mays</h2> 
+                    <h2>My name is <span style={{ color: 'hotpink'}}>Janeé Mays</span></h2> 
                     <p>Your imagination is my inspiration.</p>
                 </header>
             </Jumbotron>
