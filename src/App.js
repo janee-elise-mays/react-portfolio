@@ -2,23 +2,25 @@ import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
+import Projects from "./components/Projects";
 import Aboutme from "./components/Aboutme";
+import Container from 'react-bootstrap/Container';
 
 
 function App() {
     return (
-        <div>
-            <Navigation />
-        <div className="container">
+        <Container fluid>
+        <Navigation />
+        <Container>
             <Header />
-        </div>
+        </Container>
         <br/>
         <Aboutme />
         <main>
-        {/* <Projects /> */}
+        <Projects />
         </main>
             <Footer />
-        </div>
+        </Container>
     );
 }
 

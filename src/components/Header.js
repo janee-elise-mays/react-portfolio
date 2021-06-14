@@ -1,22 +1,10 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
-// import { animated } from "react-spring";
 import bgimage from '../images/blue-brick.jpg'
 
 function Header() {
     const date = new Date();
     const currentTime = date.getHours();
-
-    // const[flip, set] = useState(false)
-    // const props = useSpring({ 
-    //     to: { opacity: 1 }, 
-    //     from: { opacity: 0 },
-    //     reset: true,
-    //     reverse: flip,
-    //     delay: 200,
-    //     config: config.molasses,
-    //     onRest: () => set(!flip),
-    // });
 
     let greeting;
 
@@ -30,7 +18,6 @@ function Header() {
 
 
     return (
-        <div>
             <Jumbotron style={{backgroundImage: `url(${bgimage})`, backgroundSize: 'cover'}}>
                 <header>
                     <h1>{greeting}</h1>
@@ -38,7 +25,6 @@ function Header() {
                     <p>Your imagination is my inspiration.</p>
                 </header>
             </Jumbotron>
-        </div>
     );
 }
 
