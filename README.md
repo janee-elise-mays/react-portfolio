@@ -5,6 +5,8 @@ An updated portfolio using React.
 # Link to deployed application
 -https://github.com/janee-elise-mays/react-portfolio
 -
+![alt text](screen-shot.jpg)
+![alt text](screen-shot2.jpg)
 
 # Technology
 -Node.js
