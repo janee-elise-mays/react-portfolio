@@ -1,17 +1,17 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import { SocialIcon } from 'react-social-icons';
-import Image from 'react-bootstrap/Image'
+import image3 from '../images/jm-headshot.jpg';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <Card fluid>
+    <Card border="dark">
+    <h3 id="contact-me">Contact Me</h3>
     <Card.Img varient="top"
-    src=".images/jm-headshot.jpg/100px160" rounded />
+    src={image3} className="AbtImg" alt="professional headshot of developer" />
     <Card.Body id="contact-me">
-    <Card.Title>Contact Me</Card.Title>
     <Card.Link href="https://www.linkedin.com/in/janee-mays/"><SocialIcon url="https://www.linkedin.com/in/janee-mays/" /></Card.Link>
     <Card.Link href="https://github.com/janee-elise-mays"><SocialIcon url="https://github.com/janee-elise-mays" /></Card.Link>
     <Card.Link ><SocialIcon url="janee.elise@gmail.com" network="email"/></Card.Link>

@@ -55,15 +55,15 @@ body {
 .navbar{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
-.media {
+.AbtImg, .card-img.AbtImg{
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
     padding: 10px;
     width: fit-content;
-    float: left;
     margin-top: 100px;
     margin-bottom: 100px;
+    width: 200px;
 }
 h3 {
     margin-top: 20px;
@@ -90,13 +90,27 @@ h4 {
     padding-top: 300px;
 }
 .card {
-    background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
     padding: 10px;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    padding: 10px;
+}
+.card-img-bottom.AbtImg{
+    width:30%;
+}
+.card.border-dark{
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -111,8 +125,8 @@ h4 {
                 text-align: center;
                 padding-top: 75px;
             }
-
 }
+
 h1 {
     color: white;
     font-family:inherit;
