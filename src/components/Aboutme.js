@@ -1,7 +1,7 @@
 import React from "react";
 import image2 from '../images/flower.jpg';
 import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
+
 
 function Aboutme() {
 
