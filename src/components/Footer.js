@@ -1,6 +1,7 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import { SocialIcon } from 'react-social-icons';
+import Image from 'react-bootstrap/Image'
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,7 +9,7 @@ function Footer() {
   return (
     <Card fluid>
     <Card.Img varient="top"
-    src="jm-headshot.jpg" />
+    src=".images/jm-headshot.jpg/100px160" rounded />
     <Card.Body id="contact-me">
     <Card.Title>Contact Me</Card.Title>
     <Card.Link href="https://www.linkedin.com/in/janee-mays/"><SocialIcon url="https://www.linkedin.com/in/janee-mays/" /></Card.Link>

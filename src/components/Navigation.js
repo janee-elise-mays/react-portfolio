@@ -1,4 +1,4 @@
-import react from "react";
+// import react from "react";
 import { Navbar,Nav,NavDropdown } from 'react-bootstrap';
 
 function Navigation() {
@@ -11,8 +11,6 @@ function Navigation() {
         <Nav.Link href="#contact-me">Contact</Nav.Link>
         <NavDropdown title="Work" id="collasible-nav-dropdown">
           <NavDropdown.Item href="#projects">Projects</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#upcoming-projects">Coming Soon</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>

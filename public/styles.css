@@ -8,9 +8,7 @@
 body {
     background-color: lightsteelblue;
     font-family:'Open Sans', sans-serif;
-    /* padding: 10px; */
 }
-/* Head and Janee hover set atributed to the "Hello my name is" section*/
 .jumbotron {
     padding-top: 50px;
     margin-top: 100px;
@@ -25,12 +23,11 @@ body {
     padding-top: 50px;
     margin-top: 75px;
     margin-bottom: 50px;
-    padding: 100px;
+    /* padding: 100px; */
     border-radius: 50px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     height: 450px;
-    justify-content: space-around;
-    /* text-align: center; */
+    /* justify-content: space-around; */
 }
 .jumbotron h1 {
     top: 10px;
@@ -77,7 +74,6 @@ h3 {
     font-size: 40px;
 }
 .about {
-    /* background-image: url('../images/pasadena.jpg'); */
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
@@ -103,13 +99,6 @@ h4 {
     margin-bottom: 100px;
 }
 
-/* @media screen and (max-width: 600px) {
-    .jumbotron {
-            font-size: 2rem;
-            text-align: center;
-            height: 350px;
-        }
-    } */
 @media screen and (max-width: 600px) {
 .jumbotron h1, .jumbotron h2 {
         font-size: 2rem;
@@ -124,18 +113,10 @@ h4 {
             }
 
 }
-
-/* header { */
-    /* background-color: #f5ba13; */
-    /* margin: auto -16px;
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-} */
 h1 {
     color: white;
     font-family:inherit;
     font-weight: 200;
-    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); */
 }
 footer {
     position: absolute;
@@ -148,147 +129,6 @@ footer {
   footer p {
     color: #ccc;
   }
-/* 
-.janee:hover{
-    color:royalblue;
-} */
-/* links and headshot designate the characteristics of the navigation pane */
-/* .links{
-    background-color:slategray;
-    position: static;
-    text-align: right;
-    top: 0;
-    font-family:inherit;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-size: 25px;
-}
-li a {color: white;text-decoration: none;}
 
-.links ul li {
-    display: inline-block;
-    margin-left: 40px;
-    margin-right: 40px;
-}
 
-.links a:hover{
-    color: black;
-}
-#headshot{
-    z-index: 20;
-    border-radius: 50%;
-    border: 5px solid black;
-    position: absolute;
-    top: 60px;
-    left: 0px;
-} */
-/* row and side class split the page format into 30/70 display */
-/* .row {
-    display:flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-.side {
-    flex: 30%;
-    background-color: lightgray;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.side img{
-    flex: 30%;
-}
-.side:hover{
-    background-color:darkgray;
-} */
-/* flex percentage dictates occupation amount of content */
-/* .main {
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-    box-sizing: border-box;
-}
-.mountains img{
-    display:inline-block;
-    padding: 0;
-    height: 800px;
-    border: 5px solid #555;
-    box-sizing: content-box;
-}
-.mountains:hover {
-    opacity: 0.3;
-} */
-/* "a" is parent image to bottom-left class children */
-/* a {
-    position: relative;
-    max-width: fit-content;
-    color: white;
-}
-img{
-    margin: 0%;
-    padding: 0%;
-}
-.bottom-left{
-    position: absolute;
-    background-color: #555;
-    bottom: 8px;
-    left: 8px;
-    width: fit-content;
-    height: fit-content;
-    font-size: 20px;
-} */
-/* work img/work img hover sets responsive properties to mouse selection */
-/* .work img{
-    flex: 70%;
-    display: inline-block;
-    position: relative;
-    justify-content: space-evenly;
-    border: 5px solid #555;
-}
-.work img:hover{
-    opacity: 0.3;
-}
-.content h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: center;
-    text-align: center;
-    font-family:inherit;
-    font-size: 40px;
-}
-.content p{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: inline-flex;
-    text-align: center;
-    font-family:inherit;
-    font-size: 20px;
-}
-.footer h3{
-    box-sizing: border-box;
-    text-align: left;
-    background-color: white;
-    color: black;
-    font-size: 40px;
-    flex: 100%;
-    padding: 20px;
-}  */
-/* creates vertical line to the right of header */
-/* .vl h3{
-    margin-top: 20px;
-    border-right: solid gray 3px;
-}
-.contact ul li {
-    display: inline-block;
-    justify-content: center;
-    margin-left: 100px;
-    text-align: center;
-}
-.contact ul li a {
-    font-family: inherit;
-    color: inherit;
-}
-.contact li:hover{
-    font-weight: bold;
-    border-bottom: solid black 3px;
-} */
 
