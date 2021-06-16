@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: lightsteelblue;
+    font-family:'Open Sans', sans-serif;
+}
+.jumbotron {
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    height: 450px;
+    text-align: center;
+}
+.col {
+    padding-top: 50px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    /* padding: 100px; */
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    height: 450px;
+    /* justify-content: space-around; */
+}
+.jumbotron h1 {
+    top: 10px;
+    color: white;
+    font-size: 4rem;
+    text-shadow: 0px 0px 10px black;
+    padding-left: 30px;
+}
+.jumbotron h2 {
+    padding-top: 25px;
+    top: 10px;
+    color: white;
+    font-size: 3.25rem;
+    text-shadow: 0px 0px 10px black;
+    padding-left: 30px;
+}
+.jumbotron p {
+    padding-top: 50px;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0px 0px 10px black;
+    padding-left: 30px;
+}
+
+.navbar{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.AbtImg, .card-img.AbtImg{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 200px;
+}
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: center;
+    text-align: center;
+    font-family:inherit;
+    font-size: 40px;
+}
+.about {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h4 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    padding-top: 300px;
+}
+.card {
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    padding: 10px;
+}
+.card-img-bottom.AbtImg{
+    width:30%;
+}
+.card.border-dark{
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+.jumbotron h1, .jumbotron h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .jumbotron p {
+                font-size: 2rem;
+                text-align: center;
+                padding-top: 75px;
+            }
+}
+
+h1 {
+    color: white;
+    font-family:inherit;
+    font-weight: 200;
+}
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+
+
+
