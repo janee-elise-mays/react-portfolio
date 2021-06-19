@@ -4,7 +4,7 @@ An updated portfolio using React.
 
 # Link to deployed application
 - https://github.com/janee-elise-mays/react-portfolio
-- 
+- https://janee-elise-mays.github.io/react-portfolio/
 ![alt text](screen-shot.jpg)
 ![alt text](screen-shot2.jpg)
 
